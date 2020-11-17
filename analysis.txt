@@ -1,0 +1,10 @@
+
+In terms of runtime, the fastest sorting method is the quickSort() method. Both the quickSort and mergeSort methods have an O(N) complexity, as can be seen by their linearly increasing runtimes as a function of N. The selectionSort method has an O(N^2) complexity as can be seen by its nested while loop and the squared increase in runtime compared with size, N. On the other hand, bubbleSort has a complexity of O(N*log(N)), as seen by its nested while loop that decreases its length of iteration as the it goes through more indices in the list. The quickSort and mergeSort functions are best used for high speed applications that done concern themselves with space, and particularly when the list is always going to be random. However, the selectionSort and bubbleSort options save a lot of space with sorted lists because they perform no comparisons or swaps, however the runtime will still be longer. The bubbleSort option is best used when the list is always going to be short (1000 or less) and can be either sorted or unsorted beforehand. The selectionSort option is also good for shorter lists, when the input list can be either sorted or unsorted and space is a concern.
+
+
+1. For speed purposes, the fastest is certainly quickSort when dealing with already sorted lists. However, when taking space into comparison, the bubbleSort function is best because it does not perform any comparisons or swaps.
+
+2. SelectionSort is the best function for this purpose. For unsorted lists it has the least number of swaps and comparisons and for sorted lists it performs no swaps or comparisons.
+
+3. For this, the quickSort function will be best because when calling a certain function several times, it is important to concern oneself with runtime. For both sorted an unsorted cases, quickSort runs much faster than the others. 
+
